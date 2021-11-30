@@ -6,6 +6,9 @@ h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
+p{
+    color: dimgrey;
+}
 
 .name-highlight{
     color: orangered;
@@ -25,4 +28,20 @@ background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue,blueviolet);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
