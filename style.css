@@ -45,3 +45,31 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 7px;
+    height: 60%;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orangered,orange );
+    border-image-slice: 1;
+
+}
+#second-stack{
+    border-left:7px solid ;
+    border-image: linear-gradient( 180deg,blueviolet,blue);
+    border-image-slice: 1;
+}
+
+.footer{
+    text-align: center;
+}
